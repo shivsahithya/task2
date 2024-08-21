@@ -1,0 +1,99 @@
+.top-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 47%;
+  }
+  .mid-logo {
+    width: 500px;
+    height: 500px;
+    margin-left: 60%;
+    margin-bottom: 10px;
+  }
+  .menu {
+    background-color: rgba(73, 117, 221, 0.995);
+    color: white;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+  }
+  .menu a:hover {
+    background-color: beige;
+  }
+  body {
+    background-color: burlywood;
+    font-family: sans-serif;
+  }
+  .heading {
+    margin: 5px;
+    margin-left: 2px;
+    text-align: center;
+  }
+  .mid-content {
+    font-size: 50px;
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+  }
+  .bottom-content {
+    font-weight: bold;
+    font-size: 20px;
+    width: 60%;
+  }
+  .icon {
+    color: white;
+    width: 40px;
+    height: 40px;
+  }
+  .button {
+    background-color: rgb(212, 206, 206);
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .btn-group button {
+    background-color: #04aa6d; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+  .navbar ul {
+    list-style: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .navbar {
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  .navbar a:hover {
+    background-color: hsl(0, 0%, 25%);
+  }
+  .navbar li {
+    float: left;
+  }
